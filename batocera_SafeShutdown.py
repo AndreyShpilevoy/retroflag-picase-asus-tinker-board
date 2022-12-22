@@ -52,7 +52,12 @@ def reset():
 		#self.assertEqual(GPIO.input(resetPin), GPIO.LOW)
 		#GPIO.wait_for_edge(resetPin, GPIO.FALLING)
 		start = time.time()
-		while GPIO.input(resetPin) == GPIO.HIGH:
+		count = 0
+		while True and count<4:
+			if GPIO.input(resetPin) == GPIO.HIGH:
+				count = count + 1
+			else:
+				count = 0
 			time.sleep(0.5)
 		os.system("batocera-es-swissknife --emukill")
 		os.system("shutdown -r now")
