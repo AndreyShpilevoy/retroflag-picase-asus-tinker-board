@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SourcePath=https://raw.githubusercontent.com/RetroFlag/retroflag-picase/master
+SourcePath=https://raw.githubusercontent.com/AndreyShpilevoy/retroflag-picase-asus-tinker-board/master
 
 #-----------------------------------------------------------
 sleep 2s
