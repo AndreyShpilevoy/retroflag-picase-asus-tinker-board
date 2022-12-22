@@ -80,7 +80,7 @@ wget -O - "https://raw.githubusercontent.com/RetroFlag/retroflag-picase/master/r
 4. User: root Password: linux
 5. In the terminal, type the one-line command below(Case sensitive):
 
-wget -O - "https://raw.githubusercontent.com/RetroFlag/retroflag-picase/master/batocera_install.sh" | bash
+wget -O - "https://raw.githubusercontent.com/AndreyShpilevoy/retroflag-picase-asus-tinker-board/master/batocera_install.sh" | bash
 
 
 
