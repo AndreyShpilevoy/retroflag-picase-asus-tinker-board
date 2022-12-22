@@ -48,6 +48,7 @@ def ledBlink():
 
 #resets the pi
 def reset():
+	time.sleep(60)
 	while True:
 		#self.assertEqual(GPIO.input(resetPin), GPIO.LOW)
 		#GPIO.wait_for_edge(resetPin, GPIO.FALLING)
