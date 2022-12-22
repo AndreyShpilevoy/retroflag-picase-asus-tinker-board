@@ -1,3 +1,9 @@
+I changed script for batocera for my RPI4.
+Now ro reboot - you need to keep reboot button for 2sec.
+Also I changed some pins from 2,3,4 to 5,6,24 due to some problems with my RPI.
+
+
+
 # Contents
 * [GPiCase2 (GPi Case 2 only)](#gpicase2-gpi-case-2-only)
 * [GPi Case (GPi Case only)](#gpi-case-gpi-case-only)
