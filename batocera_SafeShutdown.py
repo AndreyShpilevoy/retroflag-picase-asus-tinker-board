@@ -55,11 +55,19 @@ def reset():
 		count = 0
 		while GPIO.input(resetPin) == GPIO.HIGH:
 			count = 0
+			print("HIGH")
+			print(count)
 			time.sleep(0.5)
 		while GPIO.input(powerPin) == GPIO.LOW and count < 4:
 			count += 1
+			print("LOW")
+			print(count)
 			time.sleep(0.5)
+		print("Before IF")
+		print(count)
 		if count != 0:
+			print("IF")
+			print(count)
 			os.system("batocera-es-swissknife --emukill")
 			os.system("shutdown -r now")
 
